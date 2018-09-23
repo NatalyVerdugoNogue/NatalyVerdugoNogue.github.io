@@ -1,0 +1,30 @@
+{
+  "name": "natalyverdugonogue",
+  "version": "1.0.0",
+  "description": "Portafolio Nataly Verdugo Nogue",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "5.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalyVerdugoNogue/NatalyVerdugoNogue.github.io.git"
+  },
+  "keywords": [
+    "Portafolio",
+    "Nataly",
+    "Verdugo",
+    "Nogue",
+    "Laboratoria"
+  ],
+  "author": "Nataly Verdugo Nogue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatalyVerdugoNogue/NatalyVerdugoNogue.github.io/issues"
+  },
+  "homepage": "https://github.com/NatalyVerdugoNogue/NatalyVerdugoNogue.github.io#readme"
+}
