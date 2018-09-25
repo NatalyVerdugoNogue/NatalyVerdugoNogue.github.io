@@ -2,3 +2,49 @@
   width: 100vw;
   height: 100vh;
 }
+
+.row-container {
+  height: 100vh;
+}
+
+.img-nav01 {
+  background-color: aquamarine;
+}
+
+.img-nav02 {
+  background-color: rgb(214, 127, 255);
+}
+
+.row-img-nav {
+  height: 80vh;
+}
+
+.nav-tot {
+  background-color: rgba(255, 255, 255, 0.50);
+  font-family: 'Bad Script', cursive;
+  color: #26306a;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.nav-item:focus {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.nav-item:active {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.title-proy {
+  font-family: 'Bad Script', cursive;
+  color: #26306a;
+  font-weight: 600;
+}
+
+.descr-proy {
+  font-family: 'Bad Script', cursive;
+  color: #26306a;
+}

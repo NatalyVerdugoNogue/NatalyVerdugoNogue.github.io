@@ -47,8 +47,90 @@ window.view.dataUser = () => {
 };
 
 
-window.view.proyect = () => {
-  let divProyectr = document.getElementById('container');
-  divProyectr.innerHTML =
-    '<img src="src/img/proyectos.png" class="img-maq" alt="data-user">';
+window.view.proyect01 = () => {
+  let divProyect01 = document.getElementById('container');
+  divProyect01.innerHTML =
+    `<div class="row m-0 row-container">
+      <div class="col-10 m-auto p-0 img-nav01">
+        <div class="row m-0 row-img-nav">
+          <div class="col-sm-11 col-10 p-0 pt-2">
+            <div class="row m-0">
+              <div class="col-6 p-5">
+                <h1 class="title-proy text-center">CIPHER-CESAR</h1>
+                <p class="descr-proy text-justify px-3 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus
+                  perferendis nihil
+                  commodi cum
+                  laudantium fugiat. Rem dolore, explicabo, inventore, placeat accusamus impedit praesentium architecto
+                  tenetur nesciunt consectetur repudiandae. Delectus, vero.</p>
+              </div>
+              <div class="col-6"><img src="src/img/intCipher.png" alt="Poryect-Cipher" class="img-fluid"></div>
+            </div>
+          </div>
+          <div class="col-sm-1 col-2 p-0 nav-tot text-center">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" onclick="window.view.proyect01()">01</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="window.view.proyect02()">02</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">03</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">04</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">05</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>`;
+};
+
+window.view.proyect02 = () => {
+  let divProyect02 = document.getElementById('container');
+  divProyect02.innerHTML =
+    `<div class="row m-0 row-container">
+      <div class="col-10 m-auto p-0 img-nav02">
+        <div class="row m-0 row-img-nav">
+          <div class="col-sm-11 col-10 p-0 pt-2">
+            <div class="row m-0">
+            <div class="col-6"><img src="src/img/instDataDash.png" alt="Poryect-Cipher" class="img-fluid"></div>
+              <div class="col-6 p-5">
+                <h1 class="title-proy text-center">Data Dashboard</h1>
+                <p class="descr-proy text-justify px-3 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus
+                  perferendis nihil
+                  commodi cum
+                  laudantium fugiat. Rem dolore, explicabo, inventore, placeat accusamus impedit praesentium architecto
+                  tenetur nesciunt consectetur repudiandae. Delectus, vero.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1 col-2 p-0 nav-tot text-center">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" onclick="window.view.proyect01()">01</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" onclick="window.view.proyect02()">02</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">03</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">04</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">05</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>`;
 };

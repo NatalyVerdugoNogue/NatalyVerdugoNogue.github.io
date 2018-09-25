@@ -11,5 +11,5 @@ window.controller.dataUser = () => {
 };
 
 window.controller.proyect = () => {
-  window.view.proyect();
+  window.view.proyect01();
 };
