@@ -16,11 +16,12 @@ window.view.front = () => {
 
     <p class="vertical-text-left m-0">CONTACTO</p>
     <p class="vertical-text-right m-0">YO</p>
-    <p onclick="window.view.pru()" class="top-botton m-0">PORTAFOLIO</p>
+    <p onclick="window.controller.proyect()" class="top-botton m-0">PORTAFOLIO</p>
     
     <button onclick="window.view.pru()" class="btn-right"></button>
     <button onclick="window.controller.dataUser()" class="btn-left"></button>`;
 };
+
 
 window.view.dataUser = () => {
   let divDataUser = document.getElementById('container');
@@ -43,4 +44,11 @@ window.view.dataUser = () => {
           tellus at felis sollicitudin, in dictum arcu mattis.</p>
       </div>
     </div>`;
+};
+
+
+window.view.proyect = () => {
+  let divProyectr = document.getElementById('container');
+  divProyectr.innerHTML =
+    '<img src="src/img/proyectos.png" class="img-maq" alt="data-user">';
 };
