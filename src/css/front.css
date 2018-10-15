@@ -8,8 +8,8 @@ body {
 .vertical-text-left {
   transform: rotate(270deg);
   transform-origin: left top 0;
-  -webkit-animation: moveLeftRight 3s;
-  animation: moveLeftRight 3s;
+  -webkit-animation: moveLeftRight 2s;
+  animation: moveLeftRight 2s;
   position: absolute;
   top: 60vh;
   z-index: -1;
@@ -20,8 +20,8 @@ body {
 .vertical-text-right {
   transform: rotate(90deg);
   transform-origin: right top 0;
-  -webkit-animation: moveRightLeft 3s;
-  animation: moveRightLeft 3s;
+  -webkit-animation: moveRightLeft 2s;
+  animation: moveRightLeft 2s;
   position: absolute;
   top: 52vh;
   z-index: -1;
@@ -30,13 +30,21 @@ body {
 }
 
 .top-botton {
-  -webkit-animation: moveTopBotton 3s;
-  animation: moveTopBotton 3s;
+  -webkit-animation: moveTopBotton 2s;
+  animation: moveTopBotton 2s;
   position: absolute;
   bottom: 2vh;
   z-index: -1;
   font-family: 'IM Fell DW Pica SC', serif;
   color: #ffe0e9;
+}
+
+.btn-botton {
+  height: 9.5rem;
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  bottom: 0;
 }
 
 @-webkit-keyframes moveLeftRight {
@@ -94,13 +102,13 @@ body {
 }
 
 .imageshake {
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 2s;
   /* -webkit-animation-delay: 2s; */
   -webkit-animation-iteration-count: 1;
-  -moz-animation-duration: 3s;
+  -moz-animation-duration: 2s;
   /* -moz-animation-delay: 2s; */
   -moz-animation-iteration-count: 1;
-  animation-duration: 3s;
+  animation-duration: 2s;
   /* -ms-animation-delay: 2s; */
   animation-iteration-count: 1;
 }

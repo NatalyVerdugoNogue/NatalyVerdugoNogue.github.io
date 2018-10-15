@@ -9,11 +9,13 @@ window.view.front = () => {
       </div>
     </div>
 
-    <p class="vertical-text-left m-0">Contacto</p>
-    <p class="vertical-text-right m-0">Perfil</p>
+    <span class="vertical-text-left m-0">Contacto</span>
+    <span class="vertical-text-right m-0">Perfil</span>
+    <span class="top-botton col-12 text-center">Proyectos</span>
+   
     <div class="row m-0">
-      <div class="col m-auto pad-img">
-      <p onclick="window.controller.proyect()" class="top-botton col-12 text-center m-0 px-5">Proyectos</p>
+      <div class="col-12 p-0">
+      <button onclick="window.controller.proyect()" class="col-12 p-0 btn-botton"></button>
       </div>
     </div>
 
@@ -49,7 +51,7 @@ window.view.dataUser = () => {
     </div>
     <div class="row m-0 pt-2">
       <div class="ml-auto pr-5">
-        <button class="col btn-back">Regresar</button>
+        <button class="col btn-back" onclick="window.controller.cover()">Regresar</button>
       </div>
     </div>`;
 };
