@@ -5,7 +5,7 @@ window.view.front = () => {
   divFront.innerHTML =
     `<div class="row m-0">
       <div class="col-lg-6 col-xl-6 col-md-7 col-8 m-auto pad-img">
-        <img src="src/img/principals.png" class="img-fluid img-fluid-alt animated zoomIn imageshake imgRes" alt="prueba-gata">
+        <img src="src/img/principals.png" class="img-fluid img-fluid-alt animated zoomIn imageshake imgRes" alt="Portada">
       </div>
     </div>
 
@@ -26,9 +26,12 @@ window.view.front = () => {
 window.view.dataUser = () => {
   let divDataUser = document.getElementById('container');
   divDataUser.innerHTML =
-    `<div class="row m-0 p-5">
-      <div class="col-md-6 col-12">
-        <img src="src/img/dataUser.jpg" class="rounded-circle img-fluid p-5" alt="data-user">
+    `<div class="row m-0 pt-2">
+      <h1 class="col-12 text-center text-head">Perfil</h1>
+    </div>
+    <div class="row m-0 px-5">
+      <div class="col-md-6 col-12 pt-md-5">
+        <img src="src/img/dataUser.jpg" class="rounded-circle img-fluid py-3 p-md-5" alt="data-user">
       </div>
       <div class="col-md-6 col-12 p-sm-5 p-0">
         <h1 class="text-center text-title pb-2">Nataly Verdugo Nogue</h1>
@@ -42,6 +45,11 @@ window.view.dataUser = () => {
           tempor purus. Vestibulum non varius arcu, vel faucibus lacus. Vestibulum ante ipsum primis in faucibus orci
           luctus et ultrices posuere cubilia Curae; Quisque non velit mi. Praesent nec venenatis leo. Aliquam cursus
           tellus at felis sollicitudin, in dictum arcu mattis.</p>
+      </div>
+    </div>
+    <div class="row m-0 pt-2">
+      <div class="ml-auto pr-5">
+        <button class="col btn-back">Regresar</button>
       </div>
     </div>`;
 };
