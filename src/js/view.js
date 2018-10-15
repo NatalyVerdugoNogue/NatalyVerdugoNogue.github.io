@@ -4,19 +4,19 @@ window.view.front = () => {
   let divFront = document.getElementById('container');
   divFront.innerHTML =
     `<div class="row m-0">
-      <div class="col-5 col-md-3 col-lg-2 m-auto pt-5 pt-md-3">
-      <img src="src/img/logoAzul.png" class="img-fluid img-fluid-alt" alt="prueba-gata">
-      </div>
-    </div>
-    <div class="row m-0">
-      <div class="col-lg-6 col-xl-5 col-md-7 col-8 m-auto pt-md-4 pad-img">
-        <img src="src/img/pru5.png" class="img-fluid img-fluid-altanimated zoomIn imageshake" alt="prueba-gata">
+      <div class="col-lg-6 col-xl-6 col-md-7 col-8 m-auto pad-img">
+        <img src="src/img/principals.png" class="img-fluid img-fluid-alt animated zoomIn imageshake imgRes" alt="prueba-gata">
       </div>
     </div>
 
-    <p class="vertical-text-left m-0">CONTACTO</p>
-    <p class="vertical-text-right m-0">YO</p>
-    <p onclick="window.controller.proyect()" class="top-botton m-0">PORTAFOLIO</p>
+    <p class="vertical-text-left m-0">Contacto</p>
+    <p class="vertical-text-right m-0">Perfil</p>
+    <div class="row m-0">
+      <div class="col m-auto pad-img">
+      <p onclick="window.controller.proyect()" class="top-botton col-12 text-center m-0 px-5">Proyectos</p>
+      </div>
+    </div>
+
     
     <button onclick="window.view.pru()" class="btn-right"></button>
     <button onclick="window.controller.dataUser()" class="btn-left"></button>`;

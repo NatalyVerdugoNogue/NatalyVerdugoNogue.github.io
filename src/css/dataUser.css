@@ -1,3 +1,13 @@
+button:active {
+  border: none;
+  outline: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
 .text-user {
   font-family: 'Bad Script', cursive;
   color: #26306a;
