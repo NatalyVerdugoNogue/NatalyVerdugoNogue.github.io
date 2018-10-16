@@ -50,7 +50,7 @@ window.view.dataUser = () => {
       </div>
     </div>
     <div class="row m-0 pt-2">
-      <div class="ml-auto pr-5">
+      <div class="ml-auto pr-5 py-4">
         <button class="col btn-back" onclick="window.controller.cover()">Regresar</button>
       </div>
     </div>`;
@@ -61,12 +61,14 @@ window.view.proyect01 = () => {
   let divProyect01 = document.getElementById('container');
   divProyect01.innerHTML =
     `<div class="row m-0 row-container">
-      <div class="col-10 m-auto p-0 img-nav01">
+      <div class="col-12 col-md-10 m-0 m-md-auto p-0 img-nav01">
         <div class="row m-0 row-img-nav">
-          <div class="col-sm-11 col-10 p-0 pt-2">
+          <div class="col-10 p-0 pt-2">
             <div class="row m-0">
-              <div class="col-6 p-5">
+              <div class="col-12 pt-2">
                 <h1 class="title-proy text-center">CIPHER-CESAR</h1>
+              </div>
+              <div class="col-12 col-md-6 p-3">
                 <p class="descr-proy text-justify px-3 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Delectus
                   perferendis nihil
@@ -74,25 +76,46 @@ window.view.proyect01 = () => {
                   laudantium fugiat. Rem dolore, explicabo, inventore, placeat accusamus impedit praesentium architecto
                   tenetur nesciunt consectetur repudiandae. Delectus, vero.</p>
               </div>
-              <div class="col-6"><img src="src/img/intCipher.png" alt="Poryect-Cipher" class="img-fluid"></div>
+              <div class="col-12 col-md-6"><img src="src/img/intCipher.png" alt="Poryect-Cipher" class="img-fluid"></div>
             </div>
           </div>
-          <div class="col-sm-1 col-2 p-0 nav-tot text-center">
-            <ul class="nav flex-column">
-              <li class="nav-item">
+          <div class="col-2 p-0 nav-tot text-center tabla">
+            <ul class="nav flex-column py-4">
+              <li class="nav-item py-2">
                 <a class="nav-link active" onclick="window.view.proyect01()">01</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item py-2">
                 <a class="nav-link" onclick="window.view.proyect02()">02</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item py-2">
                 <a class="nav-link" href="#">03</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item py-2">
                 <a class="nav-link" href="#">04</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item py-2">
                 <a class="nav-link" href="#">05</a>
+              </li>
+              <li class="nav-item py-2">
+                <a class="nav-link" href="#">06</a>
+              </li>
+              <li class="nav-item py-2">
+                <a class="nav-link" href="#">07</a>
+              </li>
+              <li class="nav-item py-2">
+                <a class="nav-link" href="#">08</a>
+              </li>
+              <li class="nav-item py-2">
+                <a class="nav-link" href="#">09</a>
+              </li>
+              <li class="nav-item py-2">
+                <a class="nav-link" href="#">10</a>
+              </li>
+              <li class="py-2">
+                <button class="col-8 btn-back-proy p-0" onclick="window.controller.cover()">
+                  <span class="vis-md text-back">Regresar</span>
+                  <i class="fas fa-undo icon-back vis-xl"></i>
+                </button>
               </li>
             </ul>
           </div>
