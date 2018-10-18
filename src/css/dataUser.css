@@ -23,15 +23,22 @@ button:focus {
   color: #ffffff;
 }
 
-.btn-back {
-  background-color: #ffe0e9;
+.btn-perfil {
+  background-color: #ccaeb7;
   color: #292224;
   font-family: 'Palanquin', sans-serif;
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
   transition: box-shadow .28s cubic-bezier(.4, 0, .2, 1);
   will-change: box-shadow;
   border: none;
-  border-radius: 2px
+  border-radius: 2px;
+  height: 5vh;
+}
+
+.btn-perfil:hover {
+  background-color: #ffe0e9;
+  color: #292224;
+  cursor: pointer;
 }
 
 @media (min-width: 160px) {
@@ -43,6 +50,9 @@ button:focus {
   }
   .text-head {
     font-size: 28px;
+  }
+  .v-xs {
+    display: none;
   }
 }
 
@@ -56,6 +66,9 @@ button:focus {
   .text-head {
     font-size: 3.5rem;
   }
+  .v-xs {
+    display: none;
+  }
 }
 
 @media (min-width: 641px) {
@@ -67,6 +80,18 @@ button:focus {
   }
   .text-head {
     font-size: 30px;
+  }
+  .v-xs {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .v-xl {
+    display: none;
+  }
+  .v-xs {
+    display: initial;
   }
 }
 
@@ -80,11 +105,17 @@ button:focus {
   .text-head {
     font-size: 3rem;
   }
+  .v-xl {
+    display: none;
+  }
 }
 
 @media (min-width: 1025px) {
   .text-user {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .btn-perfil {
+    font-size: 18px;
   }
   .text-title {
     font-size: 2.5rem;
@@ -92,16 +123,22 @@ button:focus {
   .text-head {
     font-size: 3.5rem;
   }
+  .v-xl {
+    display: none;
+  }
 }
 
 @media (min-width: 1367px) {
   .text-user {
-    font-size: 30px;
+    font-size: 26px;
   }
   .text-title {
     font-size: 3.5rem;
   }
   .text-head {
     font-size: 4.5rem;
+  }
+  .v-xl {
+    display: none;
   }
 }

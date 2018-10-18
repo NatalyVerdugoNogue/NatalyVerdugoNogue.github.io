@@ -1,0 +1,73 @@
+.text-form {
+  font-family: 'Palanquin', sans-serif;
+  color: #ffe0e9;
+}
+
+.btn-send-mail {
+  background-color: #ccaeb7;
+  color: #292224;
+  font-family: 'Palanquin', sans-serif;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  transition: box-shadow .28s cubic-bezier(.4, 0, .2, 1);
+  will-change: box-shadow;
+  border: none;
+}
+
+.btn-send-mail:hover {
+  background-color: #ffe0e9;
+  color: #292224;
+  cursor: pointer;
+}
+
+.text-a {
+  font-family: 'Palanquin', sans-serif;
+}
+
+.a-contact {
+  color: #ccaeb7;
+}
+
+.i-contact {
+  color: #ffe0e9;
+}
+
+.font-tot {
+  font-size: 12px;
+}
+
+.text-tot {
+  padding-top: 3vh;
+}
+
+@media (min-width: 321px) {
+  .font-tot {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .font-tot {
+    font-size: 16px;
+  }
+  .text-tot {
+    padding-top: 7vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .font-tot {
+    font-size: 26px;
+  }
+  .text-tot {
+    padding-top: 10vh;
+  }
+}
+
+@media (min-width: 1920px) {
+  .font-tot {
+    font-size: 48px;
+  }
+  .text-tot {
+    padding-top: 20vh;
+  }
+}

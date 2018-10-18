@@ -1,5 +1,6 @@
 window.view = {};
 
+
 window.view.front = () => {
   let divFront = document.getElementById('container');
   divFront.innerHTML =
@@ -15,13 +16,13 @@ window.view.front = () => {
    
     <div class="row m-0">
       <div class="col-12 p-0">
-      <button onclick="window.controller.proyect()" class="col-12 p-0 btn-botton"></button>
+      <button onclick="window.controller.proyect()" class="col-12 p-0 btn-botton btn-cover"></button>
       </div>
     </div>
 
     
-    <button onclick="window.view.pru()" class="btn-right"></button>
-    <button onclick="window.controller.dataUser()" class="btn-left"></button>`;
+    <button onclick="window.controller.contact()" class="btn-right btn-cover"></button>
+    <button onclick="window.controller.dataUser()" class="btn-left btn-cover"></button>`;
 };
 
 
@@ -31,27 +32,60 @@ window.view.dataUser = () => {
     `<div class="row m-0 pt-2">
       <h1 class="col-12 text-center text-head">Perfil</h1>
     </div>
-    <div class="row m-0 px-5">
-      <div class="col-md-6 col-12 pt-md-5">
-        <img src="src/img/dataUser.jpg" class="rounded-circle img-fluid py-3 p-md-5" alt="data-user">
-      </div>
-      <div class="col-md-6 col-12 p-sm-5 p-0">
-        <h1 class="text-center text-title pb-2">Nataly Verdugo Nogue</h1>
-        <p class="text-user text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus
-          justo fermentum
-          velit tristique, sed
-          consequat justo placerat. Curabitur pharetra arcu vestibulum lorem semper, vel congue nisi pellentesque.
-          Praesent non arcu urna. Nulla ipsum erat, interdum sit amet luctus non, molestie ut arcu. Donec leo augue,
-          hendrerit eget imperdiet posuere, finibus ut lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nulla facilisi. Donec semper sem eget auctor bibendum. Proin commodo feugiat libero vitae pretium. Integer sed
-          tempor purus. Vestibulum non varius arcu, vel faucibus lacus. Vestibulum ante ipsum primis in faucibus orci
-          luctus et ultrices posuere cubilia Curae; Quisque non velit mi. Praesent nec venenatis leo. Aliquam cursus
-          tellus at felis sollicitudin, in dictum arcu mattis.</p>
-      </div>
-    </div>
     <div class="row m-0 pt-2">
-      <div class="ml-auto pr-5 py-4">
-        <button class="col btn-back" onclick="window.controller.cover()">Regresar</button>
+      <div class="col-md-4 col-12 m-0 px-3 pt-5 pb-3">
+        <div class="row m-0">
+          <div class="col-12 pt-md-5 p-0 pb-md-5 pb-3">
+            <img src="src/img/dataUser.jpg" class="rounded-circle img-fluid p-0" alt="data-user">
+          </div>
+          <div class="col-8 pr-5 py-5 m-auto v-xs">
+            <button class="col btn-perfil" onclick="window.controller.cover()">Regresar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 col-12 px-4">
+        <div class="row m-0">
+          <div class="col-12 pt-md-5 p-0 pb-md-5 pb-3">
+            <h1 class="text-center text-title pb-2">Nataly Verdugo Nogue</h1>
+            <p class="text-user text-justify">
+              Soy Front-End Developer engrasada de Laboratoria, Ingeniera Civil Química y licenciada en ciencias.
+            </p>
+            <p class="text-user text-justify">
+              He trabajado en el Retail, como Profesora y en la industria de la pintura como jefe de planta interina;
+              pero el
+              mundo de la tecnología siempre estuvo en mi vida, llevándome a estudiar en <a href="https://www.laboratoria.la/"
+                target="_blank">Laboratoria.</a>
+            </p>
+            <p class="text-user text-justify">
+              Ahí aprendí JavaScript,HTML,CSS, Angular y Node.js.
+            </p>
+            <p class="text-user text-justify">
+              También he utilizado herramientas como Bootstrap 4 y Jest.js, Mocha.js y Chai.js.
+            </p>
+            <p class="text-user text-justify">
+              Ademas utilice plataformas y tecnologías para el desarrollo como Firebase, git, GitHub, npm entre otras.
+            </p>
+            <p class="text-user text-justify">
+              Destacando la utilización de metodologías Agile y de TDD (Test-driven development).
+            </p>
+            <p class="text-user text-justify">
+              Mi formación académica me llevo a evaluar y optimizar procesos, diseñar y conducir experimentos, así como
+              también
+              la capacidad para analizar e interpretar datos; habilidades que me han permitido destacar en la
+              implementación
+              de
+              lógicas algorítmica al momento del desarrollo.
+            </p>
+            <p class="text-user text-justify">
+              Laboratoria me sirvió para embarcarme en un viaje por el desarrollo de software, aspirando a mejorar día a
+              día
+              mis habilidades y conocimientos, para que esta travesía no termine.
+            </p>
+          </div>
+          <div class="col-8 pr-5 pt-2 pb-5 m-auto v-xl">
+            <button class="col btn-perfil" onclick="window.controller.cover()">Regresar</button>
+          </div>
+        </div>
       </div>
     </div>`;
 };
@@ -124,6 +158,7 @@ window.view.proyect01 = () => {
     </div>`;
 };
 
+
 window.view.proyect02 = () => {
   let divProyect02 = document.getElementById('container');
   divProyect02.innerHTML =
@@ -190,6 +225,7 @@ window.view.proyect02 = () => {
       </div>
     </div>`;
 };
+
 
 window.view.proyect03 = () => {
   let divProyect03 = document.getElementById('container');
@@ -258,6 +294,7 @@ window.view.proyect03 = () => {
     </div>`;
 };
 
+
 window.view.proyect04 = () => {
   let divProyect04 = document.getElementById('container');
   divProyect04.innerHTML =
@@ -324,6 +361,7 @@ window.view.proyect04 = () => {
       </div>
     </div>`;
 };
+
 
 window.view.proyect05 = () => {
   let divProyect05 = document.getElementById('container');
@@ -392,6 +430,7 @@ window.view.proyect05 = () => {
     </div>`;
 };
 
+
 window.view.proyect06 = () => {
   let divProyect06 = document.getElementById('container');
   divProyect06.innerHTML =
@@ -458,6 +497,84 @@ window.view.proyect06 = () => {
             </li>
           </ul>
         </div>
+      </div>
+    </div>`;
+};
+
+
+window.view.contact = () => {
+  let divContact = document.getElementById('container');
+  divContact.innerHTML =
+    `<div class="row m-0 pt-2">
+      <h1 class="col-12 text-center text-head">Contactame</h1>
+    </div>
+    <div class="row m-0 pt-2 font-tot">
+      <div class="col-md-6 col-12 m-0 px-5 pb-3 text-tot">
+        <div class="row m-0">
+          <p class="col-12 text-a text-justify p-0 pl-3 pt-3">
+            <a class="a-contact" href="https://github.com/NatalyVerdugoNogue" target="_blank">
+              <i class="i-contact fab fa-github col-2"></i>
+              Ve mis proyectos en GitHub
+            </a>
+          </p>
+          <p class="col-12 text-a text-justify p-0 pl-3 pt-3">
+            <a class="a-contact" href="src/documents/CVNatalyVerdugo.pdf" download="CVNatalyVerdugo.pdf" target="_blank">
+              <i class="i-contact fas fa-file-alt col-2"></i>
+              Descarga mi curriculum
+            </a>
+          </p>
+          <p class="col-12 text-a text-justify p-0 pl-3 pt-3">
+            <a class="a-contact" href="https://www.linkedin.com/in/nataly-verdugo/" target="_blank">
+              <i class="i-contact fab fa-linkedin col-2"></i>
+              Conecta conmigo en Linkedin
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-12 px-4">
+        <div class="row m-0">
+          <div class="col-12">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 form-group">
+                  <label class="text-form">
+                    Nombre:
+                  </label>
+                  <input class="form-control" type="text" id="fromname">
+                </div>
+                <div class="col-12 form-group">
+                  <label class="text-form">
+                    Asunto:
+                  </label>
+                  <input class="form-control" type="text" id="subject">
+                </div>
+                <div class="col-12 form-group">
+                  <label class="text-form">
+                    Correo:
+                  </label>
+                  <input class="form-control" type="email" id="fromemail">
+                </div>
+                <div class="col-12 form-group">
+                  <label class="text-form">
+                    Mensaje:
+                  </label>
+                  <textarea class="form-control" id="message"></textarea>
+                </div>
+                <div class="col-12 text-center pt-4">
+                  <button id="btnform" onclick="window.email.emailajs()" class="btn btn-send-mail font-tot px-4">
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row m-0">
+      <div class="col-5 col-md-2 mr-auto offset-1 pt-3">
+        <button class="col btn-perfil" onclick="window.controller.cover()">Regresar</button>
       </div>
     </div>`;
 };

@@ -20,7 +20,7 @@
 
 .nav-tot {
   background-color: rgba(255, 255, 255, 0.50);
-  font-family: 'Bad Script', cursive;
+  font-family: 'Palanquin', sans-serif;
   color: #514a4c;
 }
 
@@ -59,6 +59,12 @@
   will-change: box-shadow;
   border: none;
   border-radius: 2px
+}
+
+.btn-back-proy:hover {
+  background-color: #ffe0e9;
+  color: #292224;
+  cursor: pointer;
 }
 
 .text-back {
