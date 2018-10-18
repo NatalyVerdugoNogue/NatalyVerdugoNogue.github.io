@@ -60,65 +60,56 @@ window.view.dataUser = () => {
 window.view.proyect01 = () => {
   let divProyect01 = document.getElementById('container');
   divProyect01.innerHTML =
-    `<div class="row m-0 row-container">
-      <div class="col-12 col-md-10 m-0 m-md-auto p-0 img-nav01">
-        <div class="row m-0 row-img-nav">
-          <div class="col-10 p-0 pt-2">
-            <div class="row m-0">
-              <div class="col-12 pt-2">
-                <h1 class="title-proy text-center">CIPHER-CESAR</h1>
-              </div>
-              <div class="col-12 col-md-6 p-3">
-                <p class="descr-proy text-justify px-3 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Delectus
-                  perferendis nihil
-                  commodi cum
-                  laudantium fugiat. Rem dolore, explicabo, inventore, placeat accusamus impedit praesentium architecto
-                  tenetur nesciunt consectetur repudiandae. Delectus, vero.</p>
-              </div>
-              <div class="col-12 col-md-6"><img src="src/img/intCipher.png" alt="Poryect-Cipher" class="img-fluid"></div>
+    `<div class="container p-0 my-md-5">
+      <div class="row m-0  fondo-proyectos">
+        <div class="col-10">
+          <div class="row m-0">
+            <div class="col-12 pt-3">
+              <h1 class="title-proy text-center">Cipher Cesar</h1>
+            </div>
+            <div class="col-12 col-md-6">
+              <p class="descr-proy text-justify px-3 pt-3">
+                  Este trabajo fue mi primer acercamiento a la tecnología, una vez en Laboratoria nos propusieron hacer una aplicación que sea capas de Cifrar y Descifrar mensajes, para usarlos en la planificación de una fiesta y que el festejado, debido a su curiosidad, no pueda acceder a ellos.
+                </p>
+                <p class="descr-proy text-justify px-3 pt-3">
+                  Para el desarrollo se utilizó JavaScript, HTML y CSS.
+                </p>
+                <p class="descr-proy text-justify px-3 pt-3">
+                  <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-foodmap" target="_blank">Git Hub</a>
+                </p>
+                <p class="descr-proy text-justify px-3 pt-3">
+                  <a href="https://natalyverdugonogue.github.io/scl-2018-01-foodmap/" target="_blank">App Deploy</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="src/img/opcCipherCesar.png" alt="Proyecto-CipherCesar" class="img-fluid">
             </div>
           </div>
-          <div class="col-2 p-0 nav-tot text-center tabla">
-            <ul class="nav flex-column py-4">
-              <li class="nav-item py-2">
-                <a class="nav-link active" onclick="window.view.proyect01()">01</a>
-              </li>
-              <li class="nav-item py-2">
-                <a class="nav-link" onclick="window.view.proyect02()">02</a>
-              </li>
-              <li class="nav-item py-2">
-                <a class="nav-link" href="#">03</a>
-              </li>
-              <li class="nav-item py-2">
-                <a class="nav-link" href="#">04</a>
-              </li>
-              <li class="nav-item py-2">
-                <a class="nav-link" href="#">05</a>
-              </li>
-              <li class="nav-item py-2">
-                <a class="nav-link" href="#">06</a>
-              </li>
-              <li class="nav-item py-2">
-                <a class="nav-link" href="#">07</a>
-              </li>
-              <li class="nav-item py-2">
-                <a class="nav-link" href="#">08</a>
-              </li>
-              <li class="nav-item py-2">
-                <a class="nav-link" href="#">09</a>
-              </li>
-              <li class="nav-item py-2">
-                <a class="nav-link" href="#">10</a>
-              </li>
-              <li class="py-2">
-                <button class="col-8 btn-back-proy p-0" onclick="window.controller.cover()">
-                  <span class="vis-md text-back">Regresar</span>
-                  <i class="fas fa-undo icon-back vis-xl"></i>
-                </button>
-              </li>
-            </ul>
-          </div>
+        </div>
+        <div class="col-2 fondo-slice nav-tot p-0">
+          <ul class="nav flex-column py-4 list-tot">
+            <li class="nav-item py-2  here">
+              <a class="nav-link active" onclick="window.view.proyect01()">01</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect02()">02</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect03()">03</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect04()">04</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect05()">05</a>
+            </li>
+            <li class="py-2">
+              <button class="col-8 btn-back-proy p-2" onclick="window.controller.cover()">
+                <span class="vis-md text-back">Regresar</span>
+                <i class="fas fa-undo icon-back vis-xl"></i>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>`;
@@ -127,43 +118,121 @@ window.view.proyect01 = () => {
 window.view.proyect02 = () => {
   let divProyect02 = document.getElementById('container');
   divProyect02.innerHTML =
-    `<div class="row m-0 row-container">
-      <div class="col-10 m-auto p-0 img-nav02">
-        <div class="row m-0 row-img-nav">
-          <div class="col-sm-11 col-10 p-0 pt-2">
-            <div class="row m-0">
-            <div class="col-6"><img src="src/img/instDataDash.png" alt="Poryect-Cipher" class="img-fluid"></div>
-              <div class="col-6 p-5">
-                <h1 class="title-proy text-center">Data Dashboard</h1>
-                <p class="descr-proy text-justify px-3 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Delectus
-                  perferendis nihil
-                  commodi cum
-                  laudantium fugiat. Rem dolore, explicabo, inventore, placeat accusamus impedit praesentium architecto
-                  tenetur nesciunt consectetur repudiandae. Delectus, vero.</p>
-              </div>
+    `<div class="container p-0 my-md-5">
+      <div class="row m-0  fondo-proyectos">
+        <div class="col-10">
+          <div class="row m-0">
+            <div class="col-12 pt-3">
+              <h1 class="title-proy text-center">Food Map</h1>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="src/img/opcFoodMap.png" alt="Proyecto-FoodMap" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-6">
+              <p class="descr-proy text-justify px-3 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus
+                perferendis nihil
+                commodi cum
+                laudantium fugiat. Rem dolore, explicabo, inventore, placeat accusamus impedit praesentium architecto
+                tenetur nesciunt consectetur repudiandae. Delectus, vero.
+                </p>
             </div>
           </div>
-          <div class="col-sm-1 col-2 p-0 nav-tot text-center">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link" onclick="window.view.proyect01()">01</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" onclick="window.view.proyect02()">02</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">03</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">04</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">05</a>
-              </li>
-            </ul>
-          </div>
+        </div>
+        <div class="col-2 fondo-slice nav-tot p-0">
+          <ul class="nav flex-column py-4 list-tot">
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect01()">01</a>
+            </li>
+            <li class="nav-item py-2 here">
+              <a class="nav-link active" onclick="window.view.proyect02()">02</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect03()">03</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect04()">04</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect05()">05</a>
+            </li>
+            <li class="py-2">
+              <button class="col-8 btn-back-proy p-2" onclick="window.controller.cover()">
+                <span class="vis-md text-back">Regresar</span>
+                <i class="fas fa-undo icon-back vis-xl"></i>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>`;
+};
+
+window.view.proyect03 = () => {
+  let divProyect02 = document.getElementById('container');
+  divProyect02.innerHTML =
+    `<div class="row m-0 row-container">
+    <div class="col-12 col-md-10 m-0 m-md-auto p-0 img-nav01">
+      <div class="row m-0 row-img-nav">
+        <div class="col-10 p-0 pt-2">
+          <div class="row m-0">
+            <div class="col-12 pt-2">
+              <h1 class="title-proy text-center">Pinterest</h1>
+            </div>
+            <div class="col-12 col-md-6 p-3">
+              <p class="descr-proy text-justify px-3 pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus
+                perferendis nihil
+                commodi cum
+                laudantium fugiat. Rem dolore, explicabo, inventore, placeat accusamus impedit praesentium architecto
+                tenetur nesciunt consectetur repudiandae. Delectus, vero.</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="src/img/opcPinterest.png" alt="Poryecto-Pinterest" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-2 p-0 nav-tot text-center tabla">
+          <ul class="nav flex-column py-4">
+            <li class="nav-item py-2">
+              <a class="nav-link active" onclick="window.view.proyect01()">01</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect02()">02</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" onclick="window.view.proyect03()">03</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" href="#">04</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" href="#">05</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" href="#">06</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" href="#">07</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" href="#">08</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" href="#">09</a>
+            </li>
+            <li class="nav-item py-2">
+              <a class="nav-link" href="#">10</a>
+            </li>
+            <li class="py-2">
+              <button class="col-8 btn-back-proy p-0" onclick="window.controller.cover()">
+                <span class="vis-md text-back">Regresar</span>
+                <i class="fas fa-undo icon-back vis-xl"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>`;
 };
