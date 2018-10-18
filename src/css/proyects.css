@@ -69,6 +69,10 @@
   font-size: 14px;
 }
 
+a {
+  color: #5d7fce;
+}
+
 @media (min-width: 768px) {
   .fondo-proyectos {
     height: 80vh;
@@ -81,5 +85,14 @@
 @media (max-width: 767px) {
   .vis-md {
     display: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+    margin-top: 10vh! important;
+  }
+  .alt-xl {
+    padding-bottom: 3rem;
   }
 }
