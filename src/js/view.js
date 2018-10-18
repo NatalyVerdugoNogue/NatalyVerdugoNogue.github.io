@@ -71,14 +71,20 @@ window.view.proyect01 = () => {
               <p class="descr-proy text-justify px-3 pt-3">
                   Este trabajo fue mi primer acercamiento a la tecnología, una vez en Laboratoria nos propusieron hacer una aplicación que sea capas de Cifrar y Descifrar mensajes, para usarlos en la planificación de una fiesta y que el festejado, debido a su curiosidad, no pueda acceder a ellos.
                 </p>
-                <p class="descr-proy text-justify px-3 pt-3">
+                <p class="descr-proy text-justify px-3">
                   Para el desarrollo se utilizó JavaScript, HTML y CSS.
                 </p>
                 <p class="descr-proy text-justify px-3 pt-3">
-                  <a href="https://github.com/NatalyVerdugoNogue/scl-2018-05-bc-core-am" target="_blank">Git Hub</a>
+                  <a href="https://github.com/NatalyVerdugoNogue/scl-2018-05-bc-core-am" target="_blank">
+                    <i class="far fa-file-code"></i>
+                    Ver código en Git Hub
+                  </a>
                 </p>
-                <p class="descr-proy text-justify px-3 pt-3">
-                  <a href="https://natalyverdugonogue.github.io/scl-2018-05-bc-core-am/" target="_blank">App Deploy</a>
+                <p class="descr-proy text-justify px-3">
+                  <a href="https://natalyverdugonogue.github.io/scl-2018-05-bc-core-am/" target="_blank">
+                  <i class="fas fa-laptop-code"></i>
+                   Probar aplicación
+                  </a>
                 </p>
             </div>
             <div class="col-12 col-md-6">
@@ -135,14 +141,20 @@ window.view.proyect02 = () => {
               <p class="descr-proy text-justify px-3 pt-3">
               Web-App que utiliza google-map API, en la que se puede filtrar restaurantes cercanos y mostrar información sobre ellos a través de un modal.
               </p>
-              <p class="descr-proy text-justify px-3 pt-3">
+              <p class="descr-proy text-justify px-3">
               Desarrollado completamente en JavaScript, con consideraciones de diseño generales determinadas por <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-foodmap/blob/master/ReadmeLaboratoria.md" target="_blank">Laboratoria</a>, quien planteo el proyecto.
               </p>
               <p class="descr-proy text-justify px-3 pt-3">
-                <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-foodmap" target="_blank">Git Hub</a>
+                <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-foodmap" target="_blank">
+                  <i class="far fa-file-code"></i>
+                    Ver código en Git Hub
+                </a>
               </p>
-              <p class="descr-proy text-justify px-3 pt-3">
-                <a href="https://natalyverdugonogue.github.io/scl-2018-01-foodmap/" target="_blank">App Deploy</a>
+              <p class="descr-proy text-justify px-3">
+                <a href="https://natalyverdugonogue.github.io/scl-2018-01-foodmap/" target="_blank">
+                <i class="fas fa-laptop-code"></i>
+                   Probar aplicación
+                </a>
               </p>
             </div>
           </div>
@@ -193,18 +205,24 @@ window.view.proyect03 = () => {
               <p class="descr-proy text-justify px-3 pt-3">
                   Librería en JavaScript que desde un archivo markdown (.md), si este contiene enlaces, según lo requerido, mostrara los enlaces, la linea y el texto de todos los enlaces en el archivo.
                 </p>
-                <p class="descr-proy text-justify px-3 pt-3">
+                <p class="descr-proy text-justify px-3">
                   Desarrollado en Node.js y testeado con Jest.js.
                 </p>
                 <p class="descr-proy text-justify px-3 pt-3">
-                  <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-FE-markdown" target="_blank">Git Hub</a>
+                  <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-FE-markdown" target="_blank">
+                    <i class="far fa-file-code"></i>
+                     Ver código en Git Hub
+                  </a>
                 </p>
-                <p class="descr-proy text-justify px-3 pt-3">
-                  <a href="https://www.npmjs.com/package/md-links-nvn" target="_blank">npm</a>
+                <p class="descr-proy text-justify px-3">
+                  <a href="https://www.npmjs.com/package/md-links-nvn" target="_blank">
+                  <i class="fas fa-laptop-code"></i>
+                   Ver aplicación en npm
+                  </a>
                 </p>
             </div>
             <div class="col-12 col-md-6">
-              <img src="src/img/opcCipherCesar.png" alt="Proyecto-MarkdownLinks" class="img-fluid">
+              <img src="src/img/opcMarkdown.png" alt="Proyecto-MarkdownLinks" class="img-fluid">
             </div>
           </div>
         </div>
@@ -257,14 +275,20 @@ window.view.proyect04 = () => {
               <p class="descr-proy text-justify px-3 pt-3">
               Web-App para realizar el registro de visitantes en un complejo de cowork o residencial y facilitar el trabajo de conserjería.
               </p>
-              <p class="descr-proy text-justify px-3 pt-3">
+              <p class="descr-proy text-justify px-3">
               Desarrollado en JavaScript, HTML y CSS; utilizando Firebase como base de datos Cloud.
               </p>
               <p class="descr-proy text-justify px-3 pt-3">
-                <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-ProyectoFinalCore" target="_blank">Git Hub</a>
+                <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-ProyectoFinalCore" target="_blank">
+                  <i class="far fa-file-code"></i>
+                    Ver código en Git Hub
+                </a>
               </p>
-              <p class="descr-proy text-justify px-3 pt-3">
-                <a href="https://finalcorelaboratoria.firebaseapp.com/" target="_blank">App Deploy</a>
+              <p class="descr-proy text-justify px-3">
+                <a href="https://finalcorelaboratoria.firebaseapp.com/" target="_blank">
+                <i class="fas fa-laptop-code"></i>
+                   Probar aplicación
+                </a>
               </p>
             </div>
           </div>
@@ -315,15 +339,24 @@ window.view.proyect05 = () => {
               <p class="descr-proy text-justify px-3 pt-3">
                   Juego de memoria de cartas que muestra 8 cartas sobre la mesa, aleatorias, todas con pareja, una vez encontrada su pareja desaparecen.
                 </p>
-                <p class="descr-proy text-justify px-3 pt-3">
+                <p class="descr-proy text-justify px-3">
                   Desarrollado completamente en Angular y utilizando Bootstrap 4.
                 </p>
                 <p class="descr-proy text-justify px-3 pt-3">
-                  <a href="https://github.com/NatalyVerdugoNogue/desafioLaboratoria2" target="_blank">Git Hub</a>
+                  <a href="https://github.com/NatalyVerdugoNogue/desafioLaboratoria2" target="_blank">
+                    <i class="far fa-file-code"></i>
+                     Ver código en Git Hub
+                  </a>
+                </p>
+                <p class="descr-proy text-justify px-3">
+                  <a href="" target="_blank">
+                  <i class="fas fa-laptop-code"></i>
+                    Probar aplicación
+                  </a>
                 </p>
             </div>
             <div class="col-12 col-md-6">
-              <img src="src/img/opcCipherCesar.png" alt="Proyecto-MemoryCards" class="img-fluid">
+              <img src="src/img/opcMemoryCard.png" alt="Proyecto-MemoryCards" class="img-fluid">
             </div>
           </div>
         </div>
@@ -379,14 +412,20 @@ window.view.proyect06 = () => {
               <p class="descr-proy text-justify px-3 pt-3">
               El modelo desarrollado en JavaScript es responsive, y ademas se puede realizar una búsqueda de imágenes por tema.
               </p>
-              <p class="descr-proy text-justify px-3 pt-3">
-                <a href="https://github.com/NatalyVerdugoNogue/pinterest" target="_blank">Git Hub</a>
+              <p class="descr-proy text-justify px-3">
+                <a href="https://github.com/NatalyVerdugoNogue/pinterest" target="_blank">
+                  <i class="far fa-file-code"></i>
+                    Ver código en Git Hub
+                </a>
               </p>
               <p class="descr-proy text-justify px-3 pt-3">
               El modelo desarrollado en angular tiene una barra de palabras claves con colores al azar, y al cargar 20 imágenes y hacer scroll al final cargan 20 imágenes mas.
               </p>
-              <p class="descr-proy text-justify px-3 pt-3">
-                <a href="https://github.com/NatalyVerdugoNogue/desafioLaboratoria6" target="_blank">Git Hub</a>
+              <p class="descr-proy text-justify px-3">
+                <a href="https://github.com/NatalyVerdugoNogue/desafioLaboratoria6" target="_blank">
+                  <i class="far fa-file-code"></i>
+                    Ver código en Git Hub
+                </a>
               </p>
             </div>
           </div>
