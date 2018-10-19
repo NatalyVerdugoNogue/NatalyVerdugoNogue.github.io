@@ -15,6 +15,11 @@ window.controller.dataUser = () => {
 
 
 window.controller.cover = () => {
+  const container = document.getElementById('container');
+  container.classList.remove('animated');
+  container.classList.remove('bounceInLeft');
+  container.classList.remove('bounceInRight');
+  container.classList.remove('bounceInUp');
   window.view.front();
 };
 

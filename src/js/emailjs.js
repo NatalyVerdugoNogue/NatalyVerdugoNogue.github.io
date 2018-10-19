@@ -1,8 +1,6 @@
 window.email = {};
 
 window.email.emailajs = () => {
-
-
   const serviceid = 'gmail';
   const templateid = 'contactportfolio';
 
@@ -24,19 +22,19 @@ window.email.emailajs = () => {
     };
     document.getElementById('container').style.cursor = 'wait';
     document.getElementById('btnform').style.cursor = 'wait';
-    // return new Promise(() => {
-    //   emailjs.send(serviceid, templateid, templateparams)
-    //     .then(() => {
-    //       alert('Su mensaje se envió correctamente a Nataly');
-    //       document.getElementById('fromname').value = '';
-    //       document.getElementById('fromemail').value = '';
-    //       document.getElementById('message').value = '';
-    //       document.getElementById('subject').value = '';
-    //       document.getElementById('container').style.cursor = 'default';
-    //       document.getElementById('btnform').style.cursor = 'default';
-    //     }, () => {
-    //       alert('Su mensaje no fue enviado, inténtelo nuevamente por favor.');
-    //     });
-    // });
+    return new Promise(() => {
+      emailjs.send(serviceid, templateid, templateparams)
+        .then(() => {
+          alert('Su mensaje se envió correctamente a Nataly');
+          document.getElementById('fromname').value = '';
+          document.getElementById('fromemail').value = '';
+          document.getElementById('message').value = '';
+          document.getElementById('subject').value = '';
+          document.getElementById('container').style.cursor = 'default';
+          document.getElementById('btnform').style.cursor = 'default';
+        }, () => {
+          alert('Su mensaje no fue enviado, inténtelo nuevamente por favor.');
+        });
+    });
   }
 };

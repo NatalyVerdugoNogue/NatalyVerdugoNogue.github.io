@@ -387,7 +387,7 @@ window.view.proyect05 = () => {
                   </a>
                 </p>
                 <p class="descr-proy text-justify px-3">
-                  <a href="" target="_blank">
+                  <a href="https://memorycard-deb96.firebaseapp.com/" target="_blank">
                   <i class="fas fa-laptop-code"></i>
                     Probar aplicación
                   </a>
@@ -573,7 +573,7 @@ window.view.contact = () => {
       </div>
     </div>
     <div class="row m-0">
-      <div class="col-5 col-md-2 mr-auto offset-1 pt-3">
+      <div class="col-5 col-md-2 mr-auto offset-1 py-3">
         <button class="col btn-perfil" onclick="window.controller.cover()">Regresar</button>
       </div>
     </div>`;
