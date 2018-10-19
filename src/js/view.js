@@ -109,13 +109,13 @@ window.view.proyect01 = () => {
                   Para el desarrollo se utilizó JavaScript, HTML y CSS.
                 </p>
                 <p class="descr-proy text-justify px-3 pt-3">
-                  <a href="https://github.com/NatalyVerdugoNogue/scl-2018-05-bc-core-am" target="_blank">
+                  <a href="https://github.com/NatalyVerdugoNogue/CIPHER-CESAR" target="_blank">
                     <i class="far fa-file-code"></i>
                     Ver código en Git Hub
                   </a>
                 </p>
                 <p class="descr-proy text-justify px-3">
-                  <a href="https://natalyverdugonogue.github.io/scl-2018-05-bc-core-am/" target="_blank">
+                  <a href="https://natalyverdugonogue.github.io/CIPHER-CESAR/" target="_blank">
                   <i class="fas fa-laptop-code"></i>
                    Probar aplicación
                   </a>
@@ -180,13 +180,13 @@ window.view.proyect02 = () => {
               Desarrollado completamente en JavaScript, con consideraciones de diseño generales determinadas por <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-foodmap/blob/master/ReadmeLaboratoria.md" target="_blank">Laboratoria</a>, quien planteo el proyecto.
               </p>
               <p class="descr-proy text-justify px-3 pt-3">
-                <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-foodmap" target="_blank">
+                <a href="https://github.com/NatalyVerdugoNogue/FoodMap" target="_blank">
                   <i class="far fa-file-code"></i>
                     Ver código en Git Hub
                 </a>
               </p>
               <p class="descr-proy text-justify px-3">
-                <a href="https://natalyverdugonogue.github.io/scl-2018-01-foodmap/" target="_blank">
+                <a href="https://natalyverdugonogue.github.io/FoodMap/" target="_blank">
                 <i class="fas fa-laptop-code"></i>
                    Probar aplicación
                 </a>
@@ -245,7 +245,7 @@ window.view.proyect03 = () => {
                   Desarrollado en Node.js y testeado con Jest.js.
                 </p>
                 <p class="descr-proy text-justify px-3 pt-3">
-                  <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-FE-markdown" target="_blank">
+                  <a href="https://github.com/NatalyVerdugoNogue/Markdown" target="_blank">
                     <i class="far fa-file-code"></i>
                      Ver código en Git Hub
                   </a>
@@ -316,7 +316,7 @@ window.view.proyect04 = () => {
               Desarrollado en JavaScript, HTML y CSS; utilizando Firebase como base de datos Cloud.
               </p>
               <p class="descr-proy text-justify px-3 pt-3">
-                <a href="https://github.com/NatalyVerdugoNogue/scl-2018-01-ProyectoFinalCore" target="_blank">
+                <a href="https://github.com/NatalyVerdugoNogue/EasyRegister" target="_blank">
                   <i class="far fa-file-code"></i>
                     Ver código en Git Hub
                 </a>
@@ -381,7 +381,7 @@ window.view.proyect05 = () => {
                   Desarrollado completamente en Angular y utilizando Bootstrap 4.
                 </p>
                 <p class="descr-proy text-justify px-3 pt-3">
-                  <a href="https://github.com/NatalyVerdugoNogue/desafioLaboratoria2" target="_blank">
+                  <a href="https://github.com/NatalyVerdugoNogue/MemoryCard" target="_blank">
                     <i class="far fa-file-code"></i>
                      Ver código en Git Hub
                   </a>
@@ -448,20 +448,26 @@ window.view.proyect06 = () => {
               <p class="descr-proy text-justify px-3 pt-3">
               Replica de Pinteres realizada paralelamente en JavaScript y Angular, ambos utilizando Bootstrap 4. En el que se consulta una API de imágenes que son cargadas siguiendo la estructura de Pinterest.
               </p>
-              <p class="descr-proy text-justify px-3 pt-3">
+              <p class="descr-proy text-justify px-3 pt-2">
               El modelo desarrollado en JavaScript es responsive, y ademas se puede realizar una búsqueda de imágenes por tema.
               </p>
               <p class="descr-proy text-justify px-3">
-                <a href="https://github.com/NatalyVerdugoNogue/pinterest" target="_blank">
+                <a href="https://github.com/NatalyVerdugoNogue/Pinterest-JS" target="_blank">
                   <i class="far fa-file-code"></i>
                     Ver código en Git Hub
                 </a>
               </p>
-              <p class="descr-proy text-justify px-3 pt-3">
+              <p class="descr-proy text-justify px-3">
+                <a href="https://natalyverdugonogue.github.io/Pinterest-JS/" target="_blank">
+                <i class="fas fa-laptop-code"></i>
+                  Probar aplicación
+                </a>
+              </p>
+              <p class="descr-proy text-justify px-3 pt-2">
               El modelo desarrollado en angular tiene una barra de palabras claves con colores al azar, y al cargar 20 imágenes y hacer scroll al final cargan 20 imágenes mas.
               </p>
               <p class="descr-proy text-justify px-3">
-                <a href="https://github.com/NatalyVerdugoNogue/desafioLaboratoria6" target="_blank">
+                <a href="https://github.com/NatalyVerdugoNogue/Pinterest-Angular" target="_blank">
                   <i class="far fa-file-code"></i>
                     Ver código en Git Hub
                 </a>
