@@ -7,6 +7,9 @@ window.onload = () => {
 
 
 window.controller.dataUser = () => {
+  const container = document.getElementById('container');
+  container.classList.add('animated');
+  container.classList.add('bounceInRight');
   window.view.dataUser();
 };
 
@@ -17,10 +20,16 @@ window.controller.cover = () => {
 
 
 window.controller.proyect = () => {
+  const container = document.getElementById('container');
+  container.classList.add('animated');
+  container.classList.add('bounceInUp');
   window.view.proyect01();
 };
 
 
 window.controller.contact = () => {
+  const container = document.getElementById('container');
+  container.classList.add('animated');
+  container.classList.add('bounceInLeft');
   window.view.contact();
 };

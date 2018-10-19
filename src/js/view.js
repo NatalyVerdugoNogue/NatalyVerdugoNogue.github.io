@@ -146,7 +146,7 @@ window.view.proyect01 = () => {
             <li class="nav-item py-2">
               <a class="nav-link" onclick="window.view.proyect06()">06</a>
             </li>
-            <li class="py-2">
+            <li class="py-3">
               <button class="col-8 btn-back-proy p-2" onclick="window.controller.cover()">
                 <span class="vis-md text-back">Regresar</span>
                 <i class="fas fa-undo icon-back vis-xl"></i>
@@ -214,7 +214,7 @@ window.view.proyect02 = () => {
             <li class="nav-item py-2">
               <a class="nav-link" onclick="window.view.proyect06()">06</a>
             </li>
-            <li class="py-2">
+            <li class="py-3">
               <button class="col-8 btn-back-proy p-2" onclick="window.controller.cover()">
                 <span class="vis-md text-back">Regresar</span>
                 <i class="fas fa-undo icon-back vis-xl"></i>
@@ -282,7 +282,7 @@ window.view.proyect03 = () => {
             <li class="nav-item py-2">
               <a class="nav-link" onclick="window.view.proyect06()">06</a>
             </li>
-            <li class="py-2">
+            <li class="py-3">
               <button class="col-8 btn-back-proy p-2" onclick="window.controller.cover()">
                 <span class="vis-md text-back">Regresar</span>
                 <i class="fas fa-undo icon-back vis-xl"></i>
@@ -350,7 +350,7 @@ window.view.proyect04 = () => {
             <li class="nav-item py-2">
               <a class="nav-link" onclick="window.view.proyect06()">06</a>
             </li>
-            <li class="py-2">
+            <li class="py-3">
               <button class="col-8 btn-back-proy p-2" onclick="window.controller.cover()">
                 <span class="vis-md text-back">Regresar</span>
                 <i class="fas fa-undo icon-back vis-xl"></i>
@@ -418,7 +418,7 @@ window.view.proyect05 = () => {
             <li class="nav-item py-2">
               <a class="nav-link" onclick="window.view.proyect06()">06</a>
             </li>
-            <li class="py-2">
+            <li class="py-3">
               <button class="col-8 btn-back-proy p-2" onclick="window.controller.cover()">
                 <span class="vis-md text-back">Regresar</span>
                 <i class="fas fa-undo icon-back vis-xl"></i>
@@ -489,7 +489,7 @@ window.view.proyect06 = () => {
             <li class="nav-item py-2 here">
               <a class="nav-link active" onclick="window.view.proyect06()">06</a>
             </li>
-            <li class="py-2">
+            <li class="py-3">
               <button class="col-8 btn-back-proy p-2" onclick="window.controller.cover()">
                 <span class="vis-md text-back">Regresar</span>
                 <i class="fas fa-undo icon-back vis-xl"></i>
