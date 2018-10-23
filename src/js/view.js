@@ -239,7 +239,7 @@ window.view.proyect03 = () => {
             </div>
             <div class="col-12 col-md-6">
               <p class="descr-proy text-justify px-3 pt-3">
-                  Librería en JavaScript que desde un archivo markdown (.md), si este contiene enlaces, según lo requerido, mostrara los enlaces, la linea y el texto de todos los enlaces en el archivo.
+                  Librería en JavaScript que desde un archivo markdown (.md), si este contiene enlaces, según lo requerido, mostrara los links, la linea y el texto.
                 </p>
                 <p class="descr-proy text-justify px-3">
                   Desarrollado en Node.js y testeado con Jest.js.
